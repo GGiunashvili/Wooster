@@ -1,0 +1,451 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.hamburger-icon {
+    height: 30px;
+}
+
+.img-container {
+    background-image: url(..//img/header-img.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.for-fonts {
+    font-size: 18px;
+}
+
+.header-text {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+
+.button:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.header-button {
+    padding: 25px 50px;
+    font-size: 13px;
+}
+
+.header-button:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.horizont-line {
+    width: 80px;
+    background: #000;
+    height: 1px;
+    display: block;
+    margin: 30px auto;
+}
+
+.section-two {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec-two-text {
+    color: white;
+}
+
+.for-width {
+    width: 330px;
+    margin-right: 80px;
+}
+
+.button-two {
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+}
+
+.fb {
+    width: 100%;
+    height: 300px;
+}
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.p1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    color: #777;
+    font-size: 12px;
+}
+
+.horizont-line2 {
+    width: 80px;
+    background: #000;
+    height: 1px;
+    display: block;
+    display: inline-block;
+}
+
+.p3 {
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.p4 {
+    color: #777;
+    font-size: 20px;
+}
+
+.button-three {
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.button-three:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.butt-three-p {
+    padding: 13px 25px;
+}
+
+.butt-three-p:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.typewriter {
+    width: 100%;
+}
+
+.for-iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.coffe-image {
+    width: 100%;
+}
+
+.image-background {
+    background-image: url(../img/coffe.jpg);
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.absolute-div {
+    position: absolute;
+    text-align: center;
+}
+
+.setting {
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.under-setting {
+    color: white;
+    font-size: 20px;
+}
+
+.nick {
+    color: white;
+    margin-top: 30px;
+}
+
+.img {
+    width: 100%;
+    height: 400px;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.carr {
+    height: 400px;
+}
+
+.carr-1 {
+    height: 400px;
+}
+
+.texxt {
+    width: 590px;
+    font-size: 18px;
+}
+
+.we {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 120px;
+}
+
+.send {
+    border: 1px solid black;
+    margin-bottom: 50px;
+    display: inline-block;
+    float: right;
+}
+
+.footer-div {
+    display: inline-block;
+}
+
+.for-margin {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.send-p {
+    padding: 15px 25px;
+    color: black;
+}
+
+.brgr {
+    height: 30px;
+}
+
+.for-rows {
+    display: flex;
+    background-color: grey;
+    height: 300px;
+    align-items: center;
+}
+
+.send-p:hover {
+    background-color: black;
+    color: white;
+}
+
+.us {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #777;
+    padding-top: 16px;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main-div {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.one {
+    margin-bottom: 30px;
+}
+
+.for-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fa {
+    font-size: 40px!important;
+}
+
+.w {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.ss {
+    font-family: 'Lato', sans-serif;
+    color: #777;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+
+.subscribe {
+    width: 100%;
+    background-color: black;
+    padding: 80px;
+}
+
+.fieldwrapper {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.fow-width {}
+
+.sub {
+    color: white;
+    text-align: center;
+}
+
+.r2 {
+    width: 800px;
+    height: 50px;
+    background: black
+}
+
+.in-pt {
+    background: black;
+    height: 50px;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: white;
+    border: white;
+}
+
+.buttons {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iccon {
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+
+.butt {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.butt:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-two:hover {
+    background-color: grey;
+    color: white;
+}
+
+.row {
+    text-align: center;
+}
+
+.for-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coll {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.coll-2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 190px;
+}
+
+.con-las {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    .r2 {
+        width: 100%;
+    }
+    .in-pt {
+        width: 100%;
+        margin-left: 0;
+    }
+    .section-three {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .middle {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .for-width {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
