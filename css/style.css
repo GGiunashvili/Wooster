@@ -1,7 +1,14 @@
 .header {
     display: flex;
+    width: 100%;
+    position: fixed;
+    left: 0;
     justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
+    z-index: 999;
+    background-color: #aeb1b5;
     align-items: center;
 }
 
@@ -25,7 +32,7 @@
 }
 
 .header-text {
-    margin-top: 10%;
+    padding-top: 20%;
     text-align: center;
     font-size: 45px;
     text-transform: uppercase;
@@ -455,5 +462,15 @@ hr {
         margin-right: 0;
         text-align: center;
         margin-bottom: 10px;
+    }
+    .header-text {
+        padding-top: 50%;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header-text {
+        font-size: 32px;
     }
 }
