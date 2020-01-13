@@ -397,6 +397,14 @@ hr {
     color: white;
 }
 
+.absolute:hover {
+    background-color: #e2a1a1;
+}
+
+.iccon:hover {
+    color: #fdc9c9;
+}
+
 .row {
     text-align: center;
 }
