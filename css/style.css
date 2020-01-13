@@ -29,6 +29,11 @@
 
 .for-fonts {
     font-size: 18px;
+    transition: 0.2s;
+}
+
+.header-button:hover {
+    font-size: 20px;
 }
 
 .header-text {
@@ -49,14 +54,15 @@
     transition: 0.5s;
 }
 
-.header-button {
-    padding: 25px 50px;
-    font-size: 13px;
-}
-
 .header-button:hover {
     color: white;
     transition: 0.5s;
+}
+
+.header-button {
+    padding: 25px 50px;
+    font-size: 13px;
+    transition: 0.9s;
 }
 
 .horizont-line {
@@ -89,6 +95,7 @@
     padding: 20px;
     background-color: white;
     display: inline-block;
+    transition: 0.2s;
 }
 
 .fb {
@@ -205,6 +212,21 @@
 
 .about-us {
     text-align: center;
+    margin-top: 45px;
+}
+
+.for-fonts:hover {
+    font-size: 20px!important;
+    color: #f34141;
+}
+
+.text-99 {
+    transition: 0.2s;
+}
+
+.text-99:hover {
+    font-size: 47px!important;
+    color: #f34141;
 }
 
 .carr {
@@ -302,6 +324,7 @@ hr {
     color: white;
     text-align: center;
     padding: 30px 0;
+    transition: 0.2s;
 }
 
 .main-div {
