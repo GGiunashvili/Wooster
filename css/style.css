@@ -223,6 +223,26 @@
     transition: 0.2s;
 }
 
+.footerdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.foot-1 {
+    display: flex;
+}
+
+.foot-2 {
+    display: flex;
+}
+
 .text-99:hover {
     font-size: 47px!important;
 }
@@ -250,11 +270,13 @@ hr {
     width: 120px;
 }
 
+.for-send {
+    text-align: right;
+}
+
 .send {
     border: 1px solid black;
-    margin-bottom: 50px;
     display: inline-block;
-    float: right;
 }
 
 .footer-div {
