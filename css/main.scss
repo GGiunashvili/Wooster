@@ -23,6 +23,10 @@
     border-radius: 25px;
 }
 
+.moretext {
+    display: none;
+}
+
 .card-img-top {
     height: 170px;
     object-fit: fill;
@@ -181,7 +185,6 @@ hr {
 }
 
 .p5 {
-    display: none;
     margin-top: 20px;
     color: #b3d7ff;
     font-size: 20px;
@@ -206,7 +209,6 @@ hr {
     border: 1px solid black;
     display: inline-block;
     margin-top: 40px;
-    width: 120px;
     &:hover {
         background-color: black;
         transition: 0.5s;
@@ -258,6 +260,13 @@ hr {
 .under-setting {
     color: white;
     font-size: 20px;
+    color: #b3d7ff;
+    text-shadow: 1px 1px 1px violet;
+}
+
+.under-setting:hover {
+    color: #72a7e1;
+    text-shadow: 1px 1px 1px black;
 }
 
 .nick {
@@ -277,6 +286,13 @@ hr {
 
 .text-99 {
     transition: 0.2s;
+    color: #b3d7ff;
+    text-shadow: 1px 1px 1px violet;
+}
+
+.text-99:hover {
+    color: #72a7e1;
+    text-shadow: 1px 1px 1px black;
 }
 
 .footerdiv {
@@ -289,6 +305,14 @@ hr {
     padding-left: 30px;
     padding-right: 30px;
     color: white;
+}
+
+.card {
+    color: #b3d7ff;
+    text-shadow: 0px 0px 1px violet;
+    border: 1px solid #b3d7ff;
+    border-radius: .25rem;
+    box-shadow: 1px 1px #b3d7ff;
 }
 
 .foot-1 {
@@ -308,8 +332,15 @@ hr {
 }
 
 .texxt {
-    width: 590px;
+    max-width: 100%;
     font-size: 18px;
+    color: #b3d7ff;
+    text-shadow: 1px 1px 1px violet;
+}
+
+.texxt:hover {
+    color: #72a7e1;
+    text-shadow: 1px 1px 1px black;
 }
 
 .we {
@@ -368,6 +399,13 @@ hr {
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
+    color: #b3d7ff;
+    text-shadow: 1px 1px 1px violet;
+}
+
+.us:hover {
+    color: #72a7e1;
+    text-shadow: 1px 1px 1px black;
 }
 
 .div2 {
