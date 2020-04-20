@@ -47,10 +47,20 @@
 .for-fonts {
     font-size: 18px;
     transition: 0.2s;
+    &:hover {
+        font-size: 20px !important;
+    }
 }
 
-.header-button:hover {
-    font-size: 20px;
+.header-button {
+    &:hover {
+        font-size: 20px;
+        color: white;
+        transition: 0.5s;
+    }
+    padding: 25px 50px;
+    font-size: 13px;
+    transition: 0.9s;
 }
 
 .header-text {
@@ -64,22 +74,10 @@
     display: inline-block;
     border: 2px solid black;
     margin-top: 50px;
-}
-
-.button:hover {
-    background-color: black;
-    transition: 0.5s;
-}
-
-.header-button:hover {
-    color: white;
-    transition: 0.5s;
-}
-
-.header-button {
-    padding: 25px 50px;
-    font-size: 13px;
-    transition: 0.9s;
+    &:hover {
+        background-color: black;
+        transition: 0.5s;
+    }
 }
 
 .horizont-line {
@@ -113,6 +111,10 @@
     background-color: white;
     display: inline-block;
     transition: 0.2s;
+    &:hover {
+        background-color: grey;
+        color: white;
+    }
 }
 
 .fb {
@@ -136,6 +138,10 @@
     font-size: 30px;
     margin-bottom: 30px;
     text-shadow: 1px 1px 1px violet;
+    &:hover {
+        color: #72a7e1;
+        text-shadow: 1px 1px 1px black;
+    }
 }
 
 .p2 {
@@ -146,6 +152,10 @@
     font-size: 14px;
     margin-bottom: 10px;
     text-shadow: 1px 1px 1px violet;
+    &:hover {
+        color: #72a7e1;
+        text-shadow: 1px 1px 1px black;
+    }
 }
 
 hr {
@@ -154,7 +164,7 @@ hr {
 }
 
 .horizont-line2 {
-    width: 100%!important;
+    width: 100% !important;
     background: #000;
     height: 1px;
 }
@@ -164,40 +174,51 @@ hr {
     font-size: 20px;
     margin-bottom: 30px;
     text-shadow: 1px 1px 1px violet;
+    &:hover {
+        color: #72a7e1;
+        text-shadow: 1px 1px 1px black;
+    }
+}
+
+.p5 {
+    display: none;
+    margin-top: 20px;
+    color: #b3d7ff;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px violet;
+    &:hover {
+        color: #72a7e1;
+        text-shadow: 1px 1px 1px black;
+    }
 }
 
 .p4 {
     color: #b3d7ff;
     font-size: 20px;
     text-shadow: 1px 1px 1px violet;
-}
-
-.p1:hover,
-.p2:hover,
-.p3:hover,
-.p4:hover {
-    color: #72a7e1;
-    text-shadow: 1px 1px 1px black;
+    &:hover {
+        color: #72a7e1;
+        text-shadow: 1px 1px 1px black;
+    }
 }
 
 .button-three {
     border: 1px solid black;
     display: inline-block;
     margin-top: 40px;
-}
-
-.button-three:hover {
-    background-color: black;
-    transition: 0.5s;
+    width: 120px;
+    &:hover {
+        background-color: black;
+        transition: 0.5s;
+    }
 }
 
 .butt-three-p {
     padding: 13px 25px;
-}
-
-.butt-three-p:hover {
-    color: white;
-    transition: 0.5s;
+    &:hover {
+        color: white;
+        transition: 0.5s;
+    }
 }
 
 .typewriter {
@@ -252,10 +273,6 @@ hr {
 .about-us {
     text-align: center;
     margin-top: 45px;
-}
-
-.for-fonts:hover {
-    font-size: 20px!important;
 }
 
 .text-99 {
@@ -326,6 +343,10 @@ hr {
 .send-p {
     padding: 15px 25px;
     color: black;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
 }
 
 .brgr {
@@ -337,11 +358,6 @@ hr {
     background-color: grey;
     height: 300px;
     align-items: center;
-}
-
-.send-p:hover {
-    background-color: black;
-    color: white;
 }
 
 .us {
@@ -376,6 +392,9 @@ hr {
     text-align: center;
     padding: 30px 0;
     transition: 0.2s;
+    &:hover {
+        background-color: #e2a1a1;
+    }
 }
 
 .main-div {
@@ -395,7 +414,7 @@ hr {
 }
 
 .fa {
-    font-size: 40px!important;
+    font-size: 40px !important;
 }
 
 .w {
@@ -427,8 +446,6 @@ hr {
     align-items: center;
 }
 
-.fow-width {}
-
 .sub {
     color: white;
     text-align: center;
@@ -437,7 +454,7 @@ hr {
 .r2 {
     width: 800px;
     height: 50px;
-    background: black
+    background: black;
 }
 
 .in-pt {
@@ -460,30 +477,19 @@ hr {
 .iccon {
     font-size: 33px;
     margin-bottom: 20px;
+    &:hover {
+        color: #fdc9c9;
+    }
 }
 
 .butt {
     border: 1px solid black;
     padding: 10px 20px;
     margin: 20px;
-}
-
-.butt:hover {
-    background-color: black;
-    color: white;
-}
-
-.button-two:hover {
-    background-color: grey;
-    color: white;
-}
-
-.absolute:hover {
-    background-color: #e2a1a1;
-}
-
-.iccon:hover {
-    color: #fdc9c9;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
 }
 
 .row {
@@ -509,6 +515,20 @@ hr {
 
 .con-las {
     margin-bottom: 40px;
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    max-width: 30em;
+    margin: auto;
 }
 
 @media screen and (max-width: 992px) {
@@ -553,51 +573,101 @@ hr {
 }
 
 @media (min-width: 768px) {
-    /* show 3 items */
-    .carousel-inner .active,
-    .carousel-inner .active+.carousel-item,
-    .carousel-inner .active+.carousel-item+.carousel-item {
-        display: block;
+    .carousel-inner {
+        .active {
+            display: block;
+        }
+        .active+.carousel-item {
+            display: block;
+        }
+        .active+.carousel-item+.carousel-item {
+            display: block;
+        }
+        .carousel-item.active {
+            &:not(.carousel-item-right) {
+                &:not(.carousel-item-left) {
+                    transition: none;
+                }
+                &:not(.carousel-item-left)+.carousel-item {
+                    transition: none;
+                }
+                &:not(.carousel-item-left)+.carousel-item+.carousel-item {
+                    transition: none;
+                }
+            }
+        }
+        .carousel-item-next {
+            position: relative;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        .carousel-item-prev {
+            position: relative;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+            position: absolute;
+            top: 0;
+            right: -33.3333%;
+            z-index: -1;
+            display: block;
+            visibility: visible;
+        }
+        .carousel-item-prev.carousel-item-right {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            display: block;
+            visibility: visible;
+        }
     }
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
-        transition: none;
-    }
-    .carousel-inner .carousel-item-next,
-    .carousel-inner .carousel-item-prev {
+    .active.carousel-item-left+.carousel-item-next.carousel-item-left {
         position: relative;
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-    .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-        position: absolute;
-        top: 0;
-        right: -33.3333%;
-        z-index: -1;
-        display: block;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
         visibility: visible;
     }
-    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
-    .carousel-item-next.carousel-item-left+.carousel-item,
-    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+    .carousel-item-next.carousel-item-left+.carousel-item {
+        position: relative;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item {
+        position: relative;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
     .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
         position: relative;
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
         visibility: visible;
     }
-    .carousel-inner .carousel-item-prev.carousel-item-right {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        display: block;
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right {
+        position: relative;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
         visibility: visible;
+        display: block;
     }
-    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-    .carousel-item-prev.carousel-item-right+.carousel-item,
-    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item {
+        position: relative;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+    }
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item {
+        position: relative;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+    }
     .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
         position: relative;
         -webkit-transform: translate3d(100%, 0, 0);
@@ -605,33 +675,35 @@ hr {
         visibility: visible;
         display: block;
     }
-    #myCarousel .carousel-inner .carousel-item {
-        margin-right: 0%;
+    #myCarousel {
+        .carousel-inner {
+            .carousel-item {
+                margin-right: 0%;
+            }
+        }
     }
-    #myCarousel1 .carousel-inner .carousel-item {
-        margin-right: 0%;
+    #myCarousel1 {
+        .carousel-inner {
+            .carousel-item {
+                margin-right: 0%;
+            }
+        }
     }
 }
 
 @media (max-width: 180px) and (max-width: 767px) {
-    #myCarousel .carousel-inner div.carousel-item {
-        margin-right: 100%;
+    #myCarousel {
+        .carousel-inner {
+            div.carousel-item {
+                margin-right: 100%;
+            }
+        }
     }
-    #myCarousel1 .carousel-inner div.carousel-item {
-        margin-right: 100%;
+    #myCarousel1 {
+        .carousel-inner {
+            div.carousel-item {
+                margin-right: 100%;
+            }
+        }
     }
-}
-
-.image {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-p {
-    max-width: 30em;
-    margin: auto;
 }
